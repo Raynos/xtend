@@ -1,0 +1,31 @@
+{
+    "name": "xtend",
+    "version": "1.0.1",
+    "description": "extend like a boss",
+    "keywords": [],
+    "author": "Raynos <raynos2@gmail.com>",
+    "repository": "git://github.com/Raynos/xtend.git",
+    "main": "index",
+    "scripts": {
+        "test": "make test"
+    },
+    "homepage": "https://github.com/Raynos/xtend",
+    "contributors": [
+        {
+            "name": "Jake Verbaten"
+        }
+    ],
+    "bugs": {
+        "url": "https://github.com/Raynos/xtend/issues",
+        "email": "raynos2@gmail.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/raynos/xtend/raw/master/LICENSE"
+        }
+    ],
+    "engines": {
+        "node": ">=0.4"
+    }
+}
