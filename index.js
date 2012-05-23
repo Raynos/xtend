@@ -11,7 +11,7 @@ function extend(target) {
         Object.getOwnPropertyNames(source).forEach(addPropertyToSource)
 
         function addPropertyToSource(name) {
-            source[name] = obj[name]
+            target[name] = source[name]
         }
     }
 }
