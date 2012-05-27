@@ -42,7 +42,7 @@ Extend with multiple objects:
 
     console.log(boss.w, ' ', boss.x, ' ', boss.y, ' ', boss.z);
     
-Right-most precendence;
+Right-most precendence:
 
     var extend = require("xtend"),
         a = {
@@ -62,3 +62,7 @@ Right-most precendence;
 ### Browser Compatibility
 
 A modified version for browsers has been included. The modification is trivial to make. At present, it registers extend on window, which you should consider replacing if you intend to register the extend method on a global token in the browser.
+
+### Licence
+
+This project is licensed under the MIT licence. See LICENCE for further details.
