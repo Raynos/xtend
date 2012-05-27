@@ -1,30 +1,15 @@
-/* 
- * xtend.js  -  Extend like a boss
- *
- * 
- * The following ES5 features are required by this library:
- *
- * - Object.keys 
- *   https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object/keys
- */
- 
-var slice = Array.prototype.slice;
-
-module.exports = extend;
+module.exports = extend
 
 function extend(target) {
-    var sources, source, keys, name, i, j;
+    for (var i = 1, ii = arguments.length; i < ii; i++) {
+        var source = arguments[i],
+            keys = Object.keys(source)
 
-    sources = slice.call(arguments, 1);
-
-    for (i = 0; i < sources.length; i += 1) {
-        source = sources[i];
-        keys = Object.keys(source);
-        for (j = 0; j < keys.length; j += 1) {
-            name = keys[j];
-            target[name] = source[name];
+        for (var j = 0, jj = keys.length; j < jj; j++) {
+            var name = keys[j]
+            target[name] = source[name]
         }
     }
 
-    return target;
+    return target
 }

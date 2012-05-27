@@ -1,12 +1,10 @@
-## xtend
+# xtend
 
 Extend like a boss
 
 xtend is a basic utility library which allows you to extend an object by appending all of the properties from each object in a list. When there are identical properties, the right-most property takes presedence.
 
-
-
-### Examples
+## Examples
 
 Basic usage:
 
@@ -59,10 +57,4 @@ Right-most precendence:
 
     console.log(boss.p);  // Logs 3
     
-### Browser Compatibility
-
-A modified version for browsers has been included. The modification is trivial to make. At present, it registers extend on window, which you should consider replacing if you intend to register the extend method on a global token in the browser.
-
-### Licence
-
-This project is licensed under the MIT licence. See LICENCE for further details.
+## MIT Licenced

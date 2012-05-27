@@ -1,4 +1,4 @@
-test: 
-    node ./test/suitestack.js
+browser:
+	node ./support/compile
 
-.PHONY: test
+.PHONY: browser
