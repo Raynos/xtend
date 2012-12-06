@@ -6,7 +6,8 @@ xtend is a basic utility library which allows you to extend an object by appendi
 
 ## Examples
 
-Basic usage:
+Basic usage:   
+<a href="https://runnable.com/#raynos/xtend-basic/app.js/launch" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a> 
 
     var extend = require('xtend'),
         a = {
@@ -20,7 +21,8 @@ Basic usage:
 
     console.log('I ', a.I, ' a ', a.a);
     
-Extend with multiple objects:
+Extend with multiple objects:  
+<a href="https://runnable.com/#raynos/xtend-multiple/app.js/launch" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a> 
 
     var extend = require('xtend'),
         a = {
@@ -40,7 +42,8 @@ Extend with multiple objects:
 
     console.log(boss.w, ' ', boss.x, ' ', boss.y, ' ', boss.z);
     
-Right-most precendence:
+Right-most precendence:  
+<a href="https://runnable.com/#raynos/xtend-rightmost/app.js/launch" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a> 
 
     var extend = require("xtend"),
         a = {
