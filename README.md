@@ -6,8 +6,9 @@ xtend is a basic utility library which allows you to extend an object by appendi
 
 ## Examples
 
-Basic usage:
-<a href="https://runnable.com/#raynos/xtend-basic/app.js/launch" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a>
+Basic usage:   
+<a href="https://runnable.com/#raynos/xtend-basic/app.js/launch" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a> 
+
     var extend = require('xtend'),
         a = {
             'I': 'am'
@@ -20,8 +21,9 @@ Basic usage:
 
     console.log('I ', a.I, ' a ', a.a);
     
-Extend with multiple objects:
-<a href="https://runnable.com/#raynos/xtend-multiple/app.js/launch" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a>
+Extend with multiple objects:  
+<a href="https://runnable.com/#raynos/xtend-multiple/app.js/launch" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a> 
+
     var extend = require('xtend'),
         a = {
             'w': 'I'
@@ -40,8 +42,9 @@ Extend with multiple objects:
 
     console.log(boss.w, ' ', boss.x, ' ', boss.y, ' ', boss.z);
     
-Right-most precendence:
-<a href="https://runnable.com/#raynos/xtend-rightmost/app.js/launch" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a>
+Right-most precendence:  
+<a href="https://runnable.com/#raynos/xtend-rightmost/app.js/launch" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a> 
+
     var extend = require("xtend"),
         a = {
             "p": 1
