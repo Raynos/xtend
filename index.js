@@ -7,6 +7,11 @@ function extend() {
 
     for (var i = 0; i < arguments.length; i++) {
         var source = arguments[i]
+
+        if (!isObject(source)) {
+            continue
+        }
+
         var keys = Keys(source)
 
         for (var j = 0; j < keys.length; j++) {
@@ -24,4 +29,8 @@ function objectKeys(obj) {
         keys.push(k)
     }
     return keys
+}
+
+function isObject(obj) {
+    return obj !== null && typeof obj === "object"
 }
