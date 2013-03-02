@@ -1,46 +1,46 @@
 {
-    "name": "xtend",
-    "version": "1.0.3",
-    "description": "extend like a boss",
-    "keywords": [],
-    "author": "Raynos <raynos2@gmail.com>",
-    "repository": "git://github.com/Raynos/xtend.git",
-    "main": "index",
-    "scripts": {
-        "test": "node test"
+  "name": "xtend",
+  "version": "2.0.0",
+  "description": "extend like a boss",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/xtend.git",
+  "main": "index",
+  "scripts": {
+    "test": "node test"
+  },
+  "devDependencies": {
+    "tape": "~0.2.2"
+  },
+  "homepage": "https://github.com/Raynos/xtend",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
     },
-    "devDependencies": {
-        "tape": "~0.2.2"
-    },
-    "homepage": "https://github.com/Raynos/xtend",
-    "contributors": [
-        {
-            "name": "Jake Verbaten"
-        },
-        {
-            "name": "Matt Esch"
-        }
-    ],
-    "bugs": {
-        "url": "https://github.com/Raynos/xtend/issues",
-        "email": "raynos2@gmail.com"
-    },
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "http://github.com/raynos/xtend/raw/master/LICENSE"
-        }
-    ],
-    "testling": {
-        "files": "test.js",
-        "browsers": [
-            "ie/7..latest",
-            "chrome/5..latest",
-            "firefox/3.6..latest",
-            "safari/5.1..latest"
-        ]
-    },
-    "engines": {
-        "node": ">=0.4"
+    {
+      "name": "Matt Esch"
     }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/xtend/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/raynos/xtend/raw/master/LICENSE"
+    }
+  ],
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/7..latest",
+      "chrome/5..latest",
+      "firefox/3.6..latest",
+      "safari/5.1..latest"
+    ]
+  },
+  "engines": {
+    "node": ">=0.4"
+  }
 }
