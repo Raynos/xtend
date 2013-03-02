@@ -31,6 +31,15 @@
             "url": "http://github.com/raynos/xtend/raw/master/LICENSE"
         }
     ],
+    "testling": {
+        "files": "test.js",
+        "browsers": [
+            "ie/7..latest",
+            "chrome/5..latest",
+            "firefox/3.6..latest",
+            "safari/5.1..latest"
+        ]
+    },
     "engines": {
         "node": ">=0.4"
     }
