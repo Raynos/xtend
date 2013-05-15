@@ -1,4 +1,5 @@
-var Keys = Object.keys || objectKeys
+var Keys = require("object-keys")
+var isObject = require("is-object")
 
 module.exports = extend
 
@@ -21,16 +22,4 @@ function extend() {
     }
 
     return target
-}
-
-function objectKeys(obj) {
-    var keys = []
-    for (var k in obj) {
-        keys.push(k)
-    }
-    return keys
-}
-
-function isObject(obj) {
-    return obj !== null && typeof obj === "object"
 }
