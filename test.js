@@ -1,5 +1,6 @@
 var test = require("tape")
 var extend = require("./")
+var mutableExtend = require("./mutable")
 
 test("merge", function(assert) {
     var a = { a: "foo" }
@@ -49,5 +50,14 @@ test("null as argument", function (assert) {
     var c = void 0
 
     assert.deepEqual(extend(b, a, c), { foo: "bar" })
+    assert.end()
+})
+
+test("mutable", function (assert) {
+    var a = { foo: "bar" }
+
+    mutableExtend(a, { bar: "baz" })
+
+    assert.equal(a.bar, "baz")
     assert.end()
 })
