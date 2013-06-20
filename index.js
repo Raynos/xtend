@@ -1,5 +1,5 @@
 var Keys = require("object-keys")
-var isObject = require("is-object")
+var hasKeys = require("./has-keys")
 
 module.exports = extend
 
@@ -9,7 +9,7 @@ function extend() {
     for (var i = 0; i < arguments.length; i++) {
         var source = arguments[i]
 
-        if (!isObject(source)) {
+        if (!hasKeys(source)) {
             continue
         }
 

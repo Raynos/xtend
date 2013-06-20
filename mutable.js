@@ -1,4 +1,4 @@
-var isObject = require("is-object")
+var hasKeys = require("./has-keys")
 
 module.exports = extend
 
@@ -6,7 +6,7 @@ function extend(target) {
     var sources = [].slice.call(arguments, 1)
 
     sources.forEach(function (source) {
-        if (!isObject(source)) {
+        if (!hasKeys(source)) {
             return
         }
 
