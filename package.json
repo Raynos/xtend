@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "is-object": "~0.1.2",
-    "object-keys": "~0.2.0"
+    "object-keys": "~0.4.0"
   },
   "devDependencies": {
     "tape": "~1.0.2"
