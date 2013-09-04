@@ -1,3 +1,4 @@
+var Keys = require("object-keys")
 var hasKeys = require("./has-keys")
 
 module.exports = extend
@@ -5,15 +6,20 @@ module.exports = extend
 function extend(target) {
     var sources = [].slice.call(arguments, 1)
 
-    sources.forEach(function (source) {
+    for (var i = 0; i < sources.length; i++) {
+        var source = sources[i]
+
         if (!hasKeys(source)) {
-            return
+            continue
         }
 
-        Object.keys(source).forEach(function (name) {
+        var keys = Keys(source)
+
+        for (var j = 0; j < keys.length; j++) {
+            var name = keys[j]
             target[name] = source[name]
-        })
-    })
+        }
+    }
 
     return target
 }
