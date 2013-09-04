@@ -14,7 +14,7 @@
     "object-keys": "~0.4.0"
   },
   "devDependencies": {
-    "tape": "~1.0.4"
+    "tape": "~1.1.0"
   },
   "homepage": "https://github.com/Raynos/xtend",
   "contributors": [
