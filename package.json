@@ -1,6 +1,6 @@
 {
   "name": "xtend",
-  "version": "2.0.6",
+  "version": "2.1.0",
   "description": "extend like a boss",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
@@ -53,4 +53,3 @@
     "node": ">=0.4"
   }
 }
-
