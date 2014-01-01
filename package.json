@@ -1,8 +1,15 @@
 {
   "name": "xtend",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "extend like a boss",
-  "keywords": [ "extend", "merge", "options", "opts", "object", "array" ],
+  "keywords": [
+    "extend",
+    "merge",
+    "options",
+    "opts",
+    "object",
+    "array"
+  ],
   "author": "Raynos <raynos2@gmail.com>",
   "repository": "git://github.com/Raynos/xtend.git",
   "main": "index",
