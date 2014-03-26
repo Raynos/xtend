@@ -16,9 +16,7 @@
   "scripts": {
     "test": "node test"
   },
-  "dependencies": {
-    "object-keys": "~0.4.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "tape": "~1.1.0"
   },

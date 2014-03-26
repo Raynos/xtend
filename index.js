@@ -1,4 +1,3 @@
-var Keys = require("object-keys")
 var hasKeys = require("./has-keys")
 
 module.exports = extend
@@ -13,11 +12,10 @@ function extend() {
             continue
         }
 
-        var keys = Keys(source)
-
-        for (var j = 0; j < keys.length; j++) {
-            var name = keys[j]
-            target[name] = source[name]
+        for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+                target[key] = source[key]
+            }
         }
     }
 
