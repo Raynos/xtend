@@ -12,7 +12,7 @@
   ],
   "author": "Raynos <raynos2@gmail.com>",
   "repository": "git://github.com/Raynos/xtend.git",
-  "main": "index",
+  "main": "immutable",
   "scripts": {
     "test": "node test"
   },
