@@ -33,12 +33,7 @@
     "url": "https://github.com/Raynos/xtend/issues",
     "email": "raynos2@gmail.com"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/raynos/xtend/raw/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "testling": {
     "files": "test.js",
     "browsers": [
