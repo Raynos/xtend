@@ -65,8 +65,8 @@ test("mutable", function (assert) {
 test("null prototype", function(assert) {
     var a = { a: "foo" }
     var b = Object.create(null)
-
     b.b = "bar";
+
     assert.deepEqual(extend(a, b), { a: "foo", b: "bar" })
     assert.end()
 })
