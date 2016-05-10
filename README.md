@@ -25,7 +25,7 @@ var combination = extend({
 
 ## Stability status: Locked
 
-## MIT Licenced
+## MIT Licensed 
 
 
   [3]: http://ci.testling.com/Raynos/xtend.png
