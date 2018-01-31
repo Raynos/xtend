@@ -27,6 +27,16 @@ test("undefined", function(assert) {
     assert.end()
 })
 
+test("null", function(assert) {
+    var a = { a: null }
+    var b = { b: null, c: null }
+
+    assert.deepEqual(extend(a, a), { a: null })
+    assert.deepEqual(extend(a, b), { a: null, b: null, c: null })
+    assert.deepEqual(extend(b, a), { a: null, b: null, c: null })
+    assert.end()
+})
+
 test("handle 0", function(assert) {
     var a = { a: "default" }
     var b = { a: 0 }
