@@ -1,8 +1,12 @@
-# xtend
-
-[![browser support][3]][4]
+# DEPRECATED: xtend
 
 [![locked](http://badges.github.io/stability-badges/dist/locked.svg)](http://github.com/badges/stability-badges)
+
+This function is too small, just copy & paste it.
+
+Also `Object.assign(a, b)` or `{ ...a }` for shallow extension / copies.
+
+## Description
 
 Extend like a boss
 
